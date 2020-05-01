@@ -1,0 +1,99 @@
+18:47:51,706 DEBUG log:initialized:176 - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+18:47:51,735  INFO log:initialized:186 - Logging initialized @406ms
+18:47:51,746 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.server.Server@578486a3 added {qtp488044861{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+18:47:51,772 DEBUG ContainerLifeCycle:addBean:323 - HttpConnectionFactory@30a3107a[HTTP/1.1] added {HttpConfiguration@33c7e1bb{32768/8192,8192/8192,https://:0,[]},POJO}
+18:47:51,775 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@578486a3,UNMANAGED}
+18:47:51,776 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{null,[]}{0.0.0.0:0} added {qtp488044861{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+18:47:51,777 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@78e67e0a,AUTO}
+18:47:51,777 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@467aecef,POJO}
+18:47:51,778 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{null,[http/1.1]}{0.0.0.0:0} added {HttpConnectionFactory@30a3107a[HTTP/1.1],AUTO}
+18:47:51,778 DEBUG ServerConnector:addConnectionFactory:396 - ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:0} added HttpConnectionFactory@30a3107a[HTTP/1.1]
+18:47:51,780 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@51e2adc7,MANAGED}
+18:47:51,781 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.server.Server@578486a3 added {ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:8026},AUTO}
+18:47:51,795 DEBUG DecoratedObjectFactory:addDecorator:52 - Adding Decorator: org.eclipse.jetty.util.DeprecationWarning@74ad1f1f
+18:47:51,802 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.server.session.SessionHandler@365185bd added {org.eclipse.jetty.server.session.HashSessionManager@18bf3d14,AUTO}
+18:47:51,803 DEBUG ContainerLifeCycle:addBean:323 - o.e.j.s.ServletContextHandler@4fb64261{/,null,null} added {org.eclipse.jetty.server.session.SessionHandler@365185bd,MANAGED}
+18:47:51,807 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.server.session.SessionHandler@365185bd added {org.eclipse.jetty.servlet.ServletHandler@706a04ae,MANAGED}
+18:47:51,809 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.server.Server@578486a3 added {o.e.j.s.ServletContextHandler@4fb64261{/,null,null},MANAGED}
+18:47:51,809 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.server.Server@578486a3 added {org.eclipse.jetty.servlet.ServletHandler@710726a3,MANAGED}
+18:47:51,814 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.servlet.ServletHandler@710726a3 added {org.example.handlers.MainServlet-5d11346a@cba8aa93==org.example.handlers.MainServlet,-1,false,AUTO}
+18:47:51,815 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.servlet.ServletHandler@710726a3 added {[/path]=>org.example.handlers.MainServlet-5d11346a,POJO}
+18:47:51,815 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.server.Server@578486a3
+18:47:51,818  INFO Server:doStart:345 - jetty-9.3.7.v20160115
+18:47:51,832 DEBUG AbstractHandler:doStart:58 - starting org.eclipse.jetty.server.Server@578486a3
+18:47:51,832 DEBUG AbstractLifeCycle:setStarting:185 - starting qtp488044861{STOPPED,8<=0<=200,i=0,q=0}
+18:47:51,834 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @509ms qtp488044861{STARTED,8<=8<=200,i=8,q=0}
+18:47:51,835 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.servlet.ServletHandler@710726a3
+18:47:51,836 DEBUG ServletHandler:updateMappings:1511 - Chose path=/path mapped to servlet=org.example.handlers.MainServlet-5d11346a from default=false
+18:47:51,837 DEBUG ServletHandler:updateMappings:1532 - filterNameMap={}
+18:47:51,837 DEBUG ServletHandler:updateMappings:1533 - pathFilters=null
+18:47:51,837 DEBUG ServletHandler:updateMappings:1534 - servletFilterMap=null
+18:47:51,837 DEBUG ServletHandler:updateMappings:1535 - servletPathMap={/path=org.example.handlers.MainServlet-5d11346a@cba8aa93==org.example.handlers.MainServlet,-1,false}
+18:47:51,837 DEBUG ServletHandler:updateMappings:1536 - servletNameMap={org.example.handlers.MainServlet-5d11346a=org.example.handlers.MainServlet-5d11346a@cba8aa93==org.example.handlers.MainServlet,-1,false}
+18:47:51,837 DEBUG ServletHandler:doStart:161 - Adding Default404Servlet to org.eclipse.jetty.servlet.ServletHandler@710726a3
+18:47:51,838 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.servlet.ServletHandler@710726a3 added {org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-2df32bf7@207e794==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false,AUTO}
+18:47:51,838 DEBUG ContainerLifeCycle:addBean:323 - org.eclipse.jetty.servlet.ServletHandler@710726a3 added {[/]=>org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-2df32bf7,POJO}
+18:47:51,838 DEBUG ServletHandler:updateMappings:1511 - Chose path=/path mapped to servlet=org.example.handlers.MainServlet-5d11346a from default=false
+18:47:51,839 DEBUG ServletHandler:updateMappings:1511 - Chose path=/ mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-2df32bf7 from default=false
+18:47:51,839 DEBUG ServletHandler:updateMappings:1532 - filterNameMap={}
+18:47:51,839 DEBUG ServletHandler:updateMappings:1533 - pathFilters=null
+18:47:51,839 DEBUG ServletHandler:updateMappings:1534 - servletFilterMap=null
+18:47:51,839 DEBUG ServletHandler:updateMappings:1535 - servletPathMap={/path=org.example.handlers.MainServlet-5d11346a@cba8aa93==org.example.handlers.MainServlet,-1,false, /=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-2df32bf7@207e794==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+18:47:51,839 DEBUG ServletHandler:updateMappings:1536 - servletNameMap={org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-2df32bf7=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-2df32bf7@207e794==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false, org.example.handlers.MainServlet-5d11346a=org.example.handlers.MainServlet-5d11346a@cba8aa93==org.example.handlers.MainServlet,-1,false}
+18:47:51,840 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-2df32bf7@207e794==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+18:47:51,841 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @516ms org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-2df32bf7@207e794==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+18:47:51,841 DEBUG AbstractLifeCycle:setStarting:185 - starting org.example.handlers.MainServlet-5d11346a@cba8aa93==org.example.handlers.MainServlet,-1,false
+18:47:51,842 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @516ms org.example.handlers.MainServlet-5d11346a@cba8aa93==org.example.handlers.MainServlet,-1,false
+18:47:51,842 DEBUG AbstractHandler:doStart:58 - starting org.eclipse.jetty.servlet.ServletHandler@710726a3
+18:47:51,842 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @517ms org.eclipse.jetty.servlet.ServletHandler@710726a3
+18:47:51,842 DEBUG AbstractLifeCycle:setStarting:185 - starting ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:8026}
+18:47:51,850 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:8026} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:8026],POJO}
+18:47:51,850 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@78e67e0a
+18:47:51,853 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @528ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@78e67e0a
+18:47:51,853 DEBUG AbstractLifeCycle:setStarting:185 - starting HttpConnectionFactory@30a3107a[HTTP/1.1]
+18:47:51,853 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @528ms HttpConnectionFactory@30a3107a[HTTP/1.1]
+18:47:51,854 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@51e2adc7
+18:47:51,857 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.io.ManagedSelector@12405818 id=0 keys=-1 selected=-1
+18:47:52,015 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @690ms org.eclipse.jetty.io.ManagedSelector@12405818 id=0 keys=0 selected=0
+18:47:52,015 DEBUG QueuedThreadPool:execute:373 - queue org.eclipse.jetty.io.ManagedSelector@12405818 id=0 keys=0 selected=0
+18:47:52,016 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.io.ManagedSelector@482cd91f id=1 keys=-1 selected=-1
+18:47:52,016 DEBUG QueuedThreadPool:run:571 - run org.eclipse.jetty.io.ManagedSelector@12405818 id=0 keys=0 selected=0
+18:47:52,017 DEBUG ExecuteProduceConsume:execute:76 - EPR Idle/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@39220f5b execute
+18:47:52,017 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @692ms org.eclipse.jetty.io.ManagedSelector@482cd91f id=1 keys=0 selected=0
+18:47:52,017 DEBUG ExecuteProduceConsume:produceAndRun:154 - EPR Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@39220f5b produce enter
+18:47:52,017 DEBUG ExecuteProduceConsume:produceAndRun:160 - EPR Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@39220f5b producing
+18:47:52,017 DEBUG QueuedThreadPool:execute:373 - queue org.eclipse.jetty.io.ManagedSelector@482cd91f id=1 keys=0 selected=0
+18:47:52,017 DEBUG ManagedSelector:select:231 - Selector loop waiting on select
+18:47:52,018 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.io.ManagedSelector@123f1134 id=2 keys=-1 selected=-1
+18:47:52,018 DEBUG QueuedThreadPool:run:571 - run org.eclipse.jetty.io.ManagedSelector@482cd91f id=1 keys=0 selected=0
+18:47:52,018 DEBUG ExecuteProduceConsume:execute:76 - EPR Idle/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@1622b29e execute
+18:47:52,018 DEBUG ExecuteProduceConsume:produceAndRun:154 - EPR Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@1622b29e produce enter
+18:47:52,019 DEBUG ExecuteProduceConsume:produceAndRun:160 - EPR Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@1622b29e producing
+18:47:52,019 DEBUG ManagedSelector:select:231 - Selector loop waiting on select
+18:47:52,019 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @694ms org.eclipse.jetty.io.ManagedSelector@123f1134 id=2 keys=0 selected=0
+18:47:52,019 DEBUG QueuedThreadPool:execute:373 - queue org.eclipse.jetty.io.ManagedSelector@123f1134 id=2 keys=0 selected=0
+18:47:52,019 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.io.ManagedSelector@7d68ef40 id=3 keys=-1 selected=-1
+18:47:52,020 DEBUG QueuedThreadPool:run:571 - run org.eclipse.jetty.io.ManagedSelector@123f1134 id=2 keys=0 selected=0
+18:47:52,020 DEBUG ExecuteProduceConsume:execute:76 - EPR Idle/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@116671b4 execute
+18:47:52,020 DEBUG ExecuteProduceConsume:produceAndRun:154 - EPR Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@116671b4 produce enter
+18:47:52,020 DEBUG ExecuteProduceConsume:produceAndRun:160 - EPR Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@116671b4 producing
+18:47:52,020 DEBUG ManagedSelector:select:231 - Selector loop waiting on select
+18:47:52,020 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @695ms org.eclipse.jetty.io.ManagedSelector@7d68ef40 id=3 keys=0 selected=0
+18:47:52,021 DEBUG QueuedThreadPool:execute:373 - queue org.eclipse.jetty.io.ManagedSelector@7d68ef40 id=3 keys=0 selected=0
+18:47:52,021 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @696ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@51e2adc7
+18:47:52,021 DEBUG QueuedThreadPool:run:571 - run org.eclipse.jetty.io.ManagedSelector@7d68ef40 id=3 keys=0 selected=0
+18:47:52,021 DEBUG ExecuteProduceConsume:execute:76 - EPR Idle/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@1bcc34b8 execute
+18:47:52,021 DEBUG ExecuteProduceConsume:produceAndRun:154 - EPR Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@1bcc34b8 produce enter
+18:47:52,021 DEBUG ExecuteProduceConsume:produceAndRun:160 - EPR Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@1bcc34b8 producing
+18:47:52,021 DEBUG ManagedSelector:select:231 - Selector loop waiting on select
+18:47:52,022 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:8026} added {acceptor-0@5d740a0f,POJO}
+18:47:52,022 DEBUG QueuedThreadPool:execute:373 - queue acceptor-0@5d740a0f
+18:47:52,023 DEBUG QueuedThreadPool:run:571 - run acceptor-0@5d740a0f
+18:47:52,023 DEBUG ContainerLifeCycle:addBean:323 - ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:8026} added {acceptor-1@214b199c,POJO}
+18:47:52,023 DEBUG QueuedThreadPool:execute:373 - queue acceptor-1@214b199c
+18:47:52,023 DEBUG QueuedThreadPool:run:571 - run acceptor-1@214b199c
+18:47:52,023  INFO ServerConnector:doStart:270 - Started ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:8026}
+18:47:52,024 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @699ms ServerConnector@2a742aa2{HTTP/1.1,[http/1.1]}{0.0.0.0:8026}
+18:47:52,024  INFO Server:doStart:397 - Started @699ms
+18:47:52,024 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @699ms org.eclipse.jetty.server.Server@578486a3
+18:47:52,024 ERROR Main:runServer:51 - Server has started at port: 8026
