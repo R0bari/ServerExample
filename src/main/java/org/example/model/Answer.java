@@ -13,7 +13,7 @@ public class Answer
         this.items = items;
     }
 
-    public String getStatus()
+    public String status()
     {
         return status;
     }
@@ -23,7 +23,7 @@ public class Answer
         this.status = status;
     }
 
-    public List<Item> getItems()
+    public List<Item> items()
     {
         return items;
     }
